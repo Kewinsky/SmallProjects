@@ -1,0 +1,17 @@
+C:\Users\kewsw\OneDrive\Pulpit\Coding\C#\small_projects\call_log_management\call_log_management\bin\Debug\net6.0-windows\call_log_management.exe
+C:\Users\kewsw\OneDrive\Pulpit\Coding\C#\small_projects\call_log_management\call_log_management\bin\Debug\net6.0-windows\call_log_management.deps.json
+C:\Users\kewsw\OneDrive\Pulpit\Coding\C#\small_projects\call_log_management\call_log_management\bin\Debug\net6.0-windows\call_log_management.runtimeconfig.json
+C:\Users\kewsw\OneDrive\Pulpit\Coding\C#\small_projects\call_log_management\call_log_management\bin\Debug\net6.0-windows\call_log_management.dll
+C:\Users\kewsw\OneDrive\Pulpit\Coding\C#\small_projects\call_log_management\call_log_management\bin\Debug\net6.0-windows\ref\call_log_management.dll
+C:\Users\kewsw\OneDrive\Pulpit\Coding\C#\small_projects\call_log_management\call_log_management\bin\Debug\net6.0-windows\call_log_management.pdb
+C:\Users\kewsw\OneDrive\Pulpit\Coding\C#\small_projects\call_log_management\call_log_management\obj\Debug\net6.0-windows\call_log_management.csproj.AssemblyReference.cache
+C:\Users\kewsw\OneDrive\Pulpit\Coding\C#\small_projects\call_log_management\call_log_management\obj\Debug\net6.0-windows\call_log_management.Form1.resources
+C:\Users\kewsw\OneDrive\Pulpit\Coding\C#\small_projects\call_log_management\call_log_management\obj\Debug\net6.0-windows\call_log_management.csproj.GenerateResource.cache
+C:\Users\kewsw\OneDrive\Pulpit\Coding\C#\small_projects\call_log_management\call_log_management\obj\Debug\net6.0-windows\call_log_management.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kewsw\OneDrive\Pulpit\Coding\C#\small_projects\call_log_management\call_log_management\obj\Debug\net6.0-windows\call_log_management.AssemblyInfoInputs.cache
+C:\Users\kewsw\OneDrive\Pulpit\Coding\C#\small_projects\call_log_management\call_log_management\obj\Debug\net6.0-windows\call_log_management.AssemblyInfo.cs
+C:\Users\kewsw\OneDrive\Pulpit\Coding\C#\small_projects\call_log_management\call_log_management\obj\Debug\net6.0-windows\call_log_management.csproj.CoreCompileInputs.cache
+C:\Users\kewsw\OneDrive\Pulpit\Coding\C#\small_projects\call_log_management\call_log_management\obj\Debug\net6.0-windows\call_log_management.dll
+C:\Users\kewsw\OneDrive\Pulpit\Coding\C#\small_projects\call_log_management\call_log_management\obj\Debug\net6.0-windows\ref\call_log_management.dll
+C:\Users\kewsw\OneDrive\Pulpit\Coding\C#\small_projects\call_log_management\call_log_management\obj\Debug\net6.0-windows\call_log_management.pdb
+C:\Users\kewsw\OneDrive\Pulpit\Coding\C#\small_projects\call_log_management\call_log_management\obj\Debug\net6.0-windows\call_log_management.genruntimeconfig.cache
