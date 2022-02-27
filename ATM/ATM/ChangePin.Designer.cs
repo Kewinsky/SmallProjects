@@ -36,8 +36,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -122,17 +122,6 @@
             this.panel3.Size = new System.Drawing.Size(800, 10);
             this.panel3.TabIndex = 20;
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.label5.Location = new System.Drawing.Point(456, 348);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(108, 33);
-            this.label5.TabIndex = 21;
-            this.label5.Text = "LOGOUT";
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -144,13 +133,24 @@
             this.label3.TabIndex = 22;
             this.label3.Text = "Change PIN";
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label5.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.label5.Location = new System.Drawing.Point(339, 404);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(114, 33);
+            this.label5.TabIndex = 42;
+            this.label5.Text = "LOG OUT";
+            // 
             // ChangePin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label5);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.textBox1);
@@ -178,7 +178,7 @@
         private Panel panel1;
         private Label label1;
         private Panel panel3;
-        private Label label5;
         private Label label3;
+        private Label label5;
     }
 }
