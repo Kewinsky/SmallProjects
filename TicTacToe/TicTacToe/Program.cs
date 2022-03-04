@@ -2,6 +2,20 @@
 
 public class Program
 {
+    static char[,] playField =
+    {
+        { '1', '2', '3' },
+        { '4', '5', '6' },
+        { '7', '8', '9' }
+    };
+
+    static char[,] playFieldInitial =
+    {
+        { '1', '2', '3' },
+        { '4', '5', '6' },
+        { '7', '8', '9' }
+    };
+
     static void Main()
     {
         int player = 2; // player 1 starts
@@ -25,6 +39,33 @@ public class Program
 
             SetField();
 
+            // Winning check
+            char[] playerChars = { 'X', 'O' };
+            foreach (char playerChar in playerChars)
+            {
+                if((playField[0,0] == playerChar) && (playField[0, 1] == playerChar) && (playField[0, 2] == playerChar)
+                    || (playField[1, 0] == playerChar) && (playField[1, 1] == playerChar) && (playField[1, 2] == playerChar)
+                    || (playField[2, 0] == playerChar) && (playField[2, 1] == playerChar) && (playField[2, 2] == playerChar)
+                    || (playField[0, 0] == playerChar) && (playField[1, 0] == playerChar) && (playField[2, 0] == playerChar)
+                    || (playField[0, 1] == playerChar) && (playField[1, 1] == playerChar) && (playField[2, 1] == playerChar)
+                    || (playField[0, 2] == playerChar) && (playField[1, 2] == playerChar) && (playField[2, 2] == playerChar)
+                    || (playField[0, 0] == playerChar) && (playField[1, 1] == playerChar) && (playField[2, 2] == playerChar)
+                    || (playField[0, 2] == playerChar) && (playField[1, 1] == playerChar) && (playField[2, 0] == playerChar))
+                {
+                    if (playerChar == 'X')
+                        Console.WriteLine("\nThe winner is Player 2");
+                    else
+                        Console.WriteLine("\nThe winner is Player 1");
+
+                    Console.WriteLine("Press any key to reset the game :)");
+                    Console.ReadKey();
+                    ResetField();
+
+                    break;
+                }
+            }
+
+            // Checking if field is already taken
             do
             {
                 Console.Write("\nPlayer {0}: Choose your field! ", player);
@@ -61,23 +102,18 @@ public class Program
                     Console.WriteLine("\nIncorrect input. Use another field!");
                     inputCorect=false;
                 }
-
-
             } while (!inputCorect);
-
-
 
         } while (true);
     }
 
-    static char[,] playField =
+    public static void ResetField()
     {
-        { '1', '2', '3' },
-        { '4', '5', '6' },
-        { '7', '8', '9' }
-    };
+        playField = playFieldInitial;
+        SetField();
+    }
 
-
+    // Setting inputs
     public static void SetField()
     {
         Console.Clear();
@@ -95,6 +131,7 @@ public class Program
         Console.WriteLine("     |     |     ");
     }
 
+    // Updating fields with a sign
     public static void EnterXorO(int player, int input)
     {
         char playerSign = ' ';
